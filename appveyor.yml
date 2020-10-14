@@ -33,6 +33,8 @@ environment:
       PYTHONNET_SHUTDOWN_MODE: Soft
     - PYTHON_VERSION: 3.7
       PYTHONNET_SHUTDOWN_MODE: Soft
+    - PYTHON_VERSION: 3.6
+      PYTHONNET_SHUTDOWN_MODE: Soft
 init:
   # Update Environment Variables based on matrix/platform
   - set PY_VER=%PYTHON_VERSION:.=%
